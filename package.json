@@ -1,6 +1,6 @@
 {
   "name": "@newunionb2b/zod",
-  "version": "3.23.8",
+  "version": "1.0.0",
   "author": "Colin McDonnell <colin@colinhacks.com>",
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-unused-imports": "^2.0.0",
+    "google-artifactregistry-auth": "^3.1.2",
     "husky": "^7.0.4",
     "jest": "^29.3.1",
     "lint-staged": "^12.3.7",
@@ -117,7 +118,8 @@
     "depcruise": "depcruise -c .dependency-cruiser.js src",
     "benchmark": "tsx src/benchmarks/index.ts",
     "prepare": "husky install",
-    "docs": "netlify dev"
+    "docs": "netlify dev",
+    "google-artifactregistry-auth": "artifactregistry-auth"
   },
   "sideEffects": false,
   "support": {
@@ -125,5 +127,6 @@
       "npm-funding": true
     }
   },
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
