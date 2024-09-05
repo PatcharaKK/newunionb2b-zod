@@ -1,6 +1,6 @@
 {
   "name": "@newunionb2b/zod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Colin McDonnell <colin@colinhacks.com>",
   "repository": {
     "type": "git",
@@ -128,5 +128,8 @@
     }
   },
   "types": "./index.d.ts",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
